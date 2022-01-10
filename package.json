@@ -1,0 +1,25 @@
+{
+  "name": "aws-web-proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./node_modules/pm2/bin/pm2 start ./server.js --name hello_aws --log ../logs/app.log ",
+    "stop": "node ./node_modules/pm2/bin/pm2 stop hello_aws",
+    "build": "echo 'Building...'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityash661/aws-web-proj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityash661/aws-web-proj/issues"
+  },
+  "dependencies": {
+    "pm2": "^4.2.0"
+  },
+  "homepage": "https://github.com/adityash661/aws-web-proj#readme"
+}
